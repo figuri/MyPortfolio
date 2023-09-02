@@ -20,7 +20,7 @@ export default function Portfolio() {
         },
         {
             title: 'Tech Blog',
-            descripttion: 'this is a tech blog that utilizes both front-end and back-end technologies',
+            description: 'This is a tech blog that utilizes both front-end and back-end technologies',
             link: '',
             repoLink: 'https://github.com/figuri/HogBloggin',
         },
@@ -40,8 +40,8 @@ export default function Portfolio() {
                     <h3>{project.title}</h3>
                     <p>{project.description}</p>
                     <div className='links'>
-                        <a href='{project.link}'>Visit Site</a>
-                        <a href='{project.repoLink}'>Visit Repo</a>
+                        <a href={project.link}>Visit Site</a>
+                        <a href={project.repoLink}>Visit Repo</a>
                     </div>
                 </div>
             ))}
