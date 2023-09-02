@@ -1,8 +1,70 @@
 export default function Resume() {
+    const skills = [
+        'JavaScript',
+        'HTML',
+        'CSS',
+        'React',
+        'Node',
+        'Express',
+        'MySQL',
+        'MongoDB',
+        'Mongoose',
+        'Sequelize',
+        'GraphQL',
+        'Apollo',
+        'REST API',
+    ];
+    const experiences = [
+        {
+            title: 'None',
+            description: ' I am looking forward to my first ever job in the tech industry.',
+        }
+    ]
+    const education = [
+        {
+            degree: 'Full Stack Web Development',
+            school: 'University of California Berkeley Extension',
+            year: 'Graduated September 2023',
+        },
+        {
+            degree: 'High School Diploma',
+            school: 'Heritage High School',
+            year: 'Graduated June 2018',
+        }
+    ]
     return (
-        <div>
-            <h1>Resume</h1>
-            <p>Resume</p>
-        </div>
+        <section id='resume'>
+            <h2>Resume</h2>
+            {/** Skills */}
+            <div className='skills'>
+                <h3>Skills</h3>
+                <ul>
+                    {skills.map((skill) => (
+                        <li key={skill}>{skill}</li>
+                    ))}
+                </ul>
+            </div>
+            {/** Experience */}
+            <div className='experience'>
+                <h3>Experience</h3>
+                {experiences.map((experience) => (
+                    <div key={experience.title}>
+                        <h4>{experience.title}</h4>
+                        <p>{experience.description}</p>
+                    </div>
+                ))}
+            </div>
+            {/** Education */}
+            <div className='education'>
+                <h3>Education</h3>
+                {education.map((education) => (
+                    <div key={education.school}>
+                        <h4>{education.degree}</h4>
+                        <p>{education.school}</p>
+                        <p>{education.year}</p>
+                    </div>
+                ))}
+            </div>
+        </section>
     )
 }
