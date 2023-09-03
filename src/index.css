@@ -81,7 +81,8 @@ nav {
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    margin: 50px;
+    margin-top: 50px;
+    max-width: 40%;
     border: solid 5px var(--juniper);
     border-radius: 30px;
     box-shadow: 10px 10px 5px var(--olive);
@@ -103,6 +104,14 @@ nav {
     color: var(--fern);
 }
 
+.project-image {
+    width: 50%;
+    height: 50%;
+    border: solid 5px var(--juniper);
+    border-radius: 30px;
+    margin: 20px;
+}
+
 .projectLink {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -118,4 +127,35 @@ a {
 
 a:hover {
     color: var(--fern);
+}
+
+.about {
+    background-color: var(--sage);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 0;
+    margin: 200px;
+    border: solid 5px var(--hunter);
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px var(--seaweed); 
+}
+
+.about-text p {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    color: var(--seaweed);
+    margin: 100px;
+}
+
+.ME {
+    background-color: var(--olive);
+    border: solid 5px var(--hunter);
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px var(--seaweed); 
+    margin: 50px;
 }
