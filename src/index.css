@@ -1,7 +1,121 @@
 :root {
-    
+    --moss: #466D1D;
+    --juniper: #3A5311;
+    --sage: #728C69;
+    --olive: #98BF64;
+    --emerald: #028A0F;
+    --chartruese: #B0FC38;
+    --lime: #AEF359;
+    --pear: #74B72E;
+    --fern: #5DBB63;
+    --artichoke: #8F9779;
+    --viridian: #609708;
+    --stoneblue: #59788E;
+    --hunter: #3f704d;
+    --seaweed: #354a21;
+    --warmgreen: #bfcca4;
+}
+
+body {
+    background-color: var(--warmgreen);
+}
+
+.header {
+    background-color: var(--moss);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    color: var(--chartruese);
+    border: solid 5px var(--juniper);
 }
 
 .myName {
+    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--chartruese);
+}
 
+nav {
+    background-color: var(--juniper);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.navLink {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--emerald);
+}
+
+.projects {
+    background-color: var(--sage);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 50px;
+    border: solid 5px var(--hunter);
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px var(--seaweed); 
+}
+
+.project {
+    background-color: var(--seaweed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+    border: solid 5px var(--juniper);
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px var(--olive);
+}
+
+.project-name{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--pear);
+}
+
+.project-description {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--fern);
+}
+
+.projectLink {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--pear);
+    padding: 10px;
+}
+
+a {
+    color: var(--lime);
+}
+
+a:hover {
+    color: var(--fern);
 }
