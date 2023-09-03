@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <section id='about'>
-            <h2>About Me</h2>
+            <h2 className="header">About Me</h2>
             <div className='about'>
                 <div className='about-text'>
                     <p>My name is Samuel, I am passionate about my profession. 

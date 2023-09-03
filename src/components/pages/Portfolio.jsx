@@ -33,7 +33,7 @@ export default function Portfolio() {
     ]
     return (
       <section id='portfolio'>
-        <h2>Portfolio</h2>
+        <h2 className="header">Portfolio</h2>
         <div className='projects'>
             {projects.map((project, index) => (
                 <div className='project' key={index}>

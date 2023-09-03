@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 export default function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -11,7 +13,7 @@ export default function Contact() {
 
     return (
         <section id='contact'>
-            <h2>Contact</h2>
+            <h2 className="header">Contact</h2>
             {/* confirm message on form submit */}
             {isSubmitted && <p>Thank you for your message!</p>}
             {/* contact form */}

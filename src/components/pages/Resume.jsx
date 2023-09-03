@@ -1,4 +1,5 @@
 export default function Resume() {
+    // list of my dev skills as an array
     const skills = [
         'JavaScript',
         'HTML',
@@ -14,12 +15,14 @@ export default function Resume() {
         'Apollo',
         'REST API',
     ];
+    // list of my experiences as an array
     const experiences = [
         {
             title: 'None',
             description: ' I am looking forward to my first ever job in the tech industry.',
         }
     ]
+    // list of my education as an array
     const education = [
         {
             degree: 'Full Stack Web Development',
@@ -32,9 +35,10 @@ export default function Resume() {
             year: 'Graduated June 2018',
         }
     ]
+    // return the JSX for the Resume page
     return (
         <section id='resume'>
-            <h2>Resume</h2>
+            <h2 className="header">Resume</h2>
             {/** Skills */}
             <div className='skills'>
                 <h3>Skills</h3>
