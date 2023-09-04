@@ -1,161 +1,228 @@
 :root {
-    --moss: #466D1D;
-    --juniper: #3A5311;
-    --sage: #728C69;
-    --olive: #98BF64;
-    --emerald: #028A0F;
-    --chartruese: #B0FC38;
-    --lime: #AEF359;
-    --pear: #74B72E;
-    --fern: #5DBB63;
-    --artichoke: #8F9779;
-    --viridian: #609708;
-    --stoneblue: #59788E;
-    --hunter: #3f704d;
-    --seaweed: #354a21;
-    --warmgreen: #bfcca4;
+  --moss: #466d1d;
+  --juniper: #3a5311;
+  --sage: #728c69;
+  --olive: #98bf64;
+  --emerald: #028a0f;
+  --chartruese: #b0fc38;
+  --lime: #aef359;
+  --pear: #74b72e;
+  --fern: #5dbb63;
+  --artichoke: #8f9779;
+  --viridian: #609708;
+  --stoneblue: #59788e;
+  --hunter: #3f704d;
+  --seaweed: #354a21;
+  --warmgreen: #bfcca4;
 }
 
 body {
-    background-color: var(--warmgreen);
+  background-color: var(--warmgreen);
 }
 
 .header {
-    background-color: var(--moss);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px 0;
-    color: var(--chartruese);
-    border: solid 5px var(--juniper);
+  background-color: var(--moss);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  color: var(--chartruese);
+  border: solid 5px var(--juniper);
 }
 
 .myName {
-    font-size: 72px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    color: var(--chartruese);
+  font-size: 72px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--chartruese);
 }
 
 nav {
-    background-color: var(--juniper);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
+  background-color: var(--juniper);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
 }
 
 .nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
 }
 
 .navLink {
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    color: var(--emerald);
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--emerald);
 }
 
 .projects {
-    background-color: var(--sage);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px 0;
-    margin: 50px;
-    border: solid 5px var(--hunter);
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px var(--seaweed); 
+  background-color: var(--sage);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  margin: 50px;
+  border: solid 5px var(--hunter);
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px var(--seaweed);
 }
 
 .project {
-    background-color: var(--seaweed);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    margin-top: 50px;
-    max-width: 40%;
-    border: solid 5px var(--juniper);
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px var(--olive);
+  background-color: var(--seaweed);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  max-width: 40%;
+  border: solid 5px var(--juniper);
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px var(--olive);
 }
 
-.project-name{
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    color: var(--pear);
+.project-name {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--pear);
 }
 
 .project-description {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    color: var(--fern);
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--fern);
 }
 
 .project-image {
-    width: 50%;
-    height: 50%;
-    border: solid 5px var(--juniper);
-    border-radius: 30px;
-    margin: 20px;
+  width: 50%;
+  height: 50%;
+  border: solid 5px var(--juniper);
+  border-radius: 30px;
+  margin: 20px;
 }
 
 .projectLink {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    color: var(--pear);
-    padding: 10px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--pear);
+  padding: 10px;
 }
 
 a {
-    color: var(--lime);
+  color: var(--lime);
 }
 
 a:hover {
-    color: var(--fern);
+  color: var(--fern);
 }
 
 .about {
-    background-color: var(--sage);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    padding: 20px 0;
-    margin: 200px;
-    border: solid 5px var(--hunter);
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px var(--seaweed); 
+  background-color: var(--sage);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 0;
+  margin: 200px;
+  border: solid 5px var(--hunter);
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px var(--seaweed);
 }
 
 .about-text p {
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    padding: 10px;
-    color: var(--seaweed);
-    margin: 100px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+  color: var(--seaweed);
+  margin: 100px;
 }
 
 .ME {
-    background-color: var(--olive);
-    border: solid 5px var(--hunter);
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px var(--seaweed); 
-    margin: 50px;
+  background-color: var(--olive);
+  border: solid 5px var(--hunter);
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px var(--seaweed);
+  margin: 50px;
+}
+
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.skills {
+  flex: 1;
+  background-color: var(--sage);
+  color: var(--chartruese);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px var(--seaweed);
+  border: solid 5px var(--hunter);
+  margin: 20px;
+}
+
+.skills .title {
+  font-size: 36px;
+  border-bottom: solid 5px var(--hunter);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.skillList {
+  list-style: none;
+  padding: 0;
+}
+
+.skillList li {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+.experience,
+.education {
+  flex: 1;
+  background-color: var(--sage);
+  color: var(--chartruese);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px var(--seaweed);
+  border: solid 5px var(--hunter);
+  margin: 20px;
+}
+
+.experience h3,
+.education h3 {
+  font-size: 36px;
+  border-bottom: solid 5px var(--hunter);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.experience h4,
+.education h4 {
+  margin: 5px 0;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.experience p,
+.education p {
+  margin-bottom: 10px;
 }
