@@ -226,3 +226,23 @@ a:hover {
 .education p {
   margin-bottom: 10px;
 }
+
+.resume-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.resume-download a {
+    font-size: 36px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    color: var(--hunter);
+}
+
+.resume-download a:hover {
+    color: var(--stoneblue);
+}
