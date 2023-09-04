@@ -129,35 +129,43 @@ a:hover {
   color: var(--fern);
 }
 
-.about {
-  background-color: var(--sage);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  padding: 20px 0;
-  margin: 200px;
-  border: solid 5px var(--hunter);
-  border-radius: 30px;
-  box-shadow: 10px 10px 5px var(--seaweed);
+.header {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-.about-text p {
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  padding: 10px;
-  color: var(--seaweed);
-  margin: 100px;
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .ME {
-  background-color: var(--olive);
+  height: 500px;
+  width: 400px;
   border: solid 5px var(--hunter);
   border-radius: 30px;
+  box-shadow: 7px 7px 5px var(--moss);
+  margin: 20px;
+}
+
+.about-text {
+  flex: 1;
+  background-color: var(--sage);
+  color: var(--chartruese);
+  padding: 20px;
+  border-radius: 5px;
   box-shadow: 10px 10px 5px var(--seaweed);
-  margin: 50px;
+  border: solid 5px var(--hunter);
+  margin: 20px;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.about-text p {
+  margin: 0;
+  line-height: 1.5;
 }
 
 .resume {
@@ -228,21 +236,21 @@ a:hover {
 }
 
 .resume-download {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
 }
 
 .resume-download a {
-    font-size: 36px;
-    font-family: "Courier New", Courier, monospace;
-    font-weight: bold;
-    color: var(--hunter);
+  font-size: 36px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: var(--hunter);
 }
 
 .resume-download a:hover {
-    color: var(--stoneblue);
+  color: var(--stoneblue);
 }
