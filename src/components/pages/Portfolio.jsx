@@ -30,10 +30,17 @@ export default function Portfolio() {
         },
         {
             title: 'Bemploy',
-            description: 'this is the backend for a employee registry for an ecommmerce company',
+            description: 'This is the backend for a employee registry for an ecommmerce company',
             link: 'This is a backend application there is no site to visit but if you visit the github repo and read the readme you can see how to use it !',
             repoLink: 'https://github.com/figuri/Bemploy',
             image: './project-images/bemploy.png'
+        },
+        {
+            title: 'Skyfinder',
+            description: 'This is a front end application that finds the current location of the international space station and tells you some user related info !',
+            link: 'https://ssherp.github.io/SkyFinder-project/',
+            repoLink: 'https://github.com/ssherp/SkyFinder-project',
+            image: './project-images/skyfinder.png'
         }
     ]
     return (

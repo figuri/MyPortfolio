@@ -161,6 +161,7 @@ a:hover {
   margin: 20px;
   font-size: 24px;
   font-family: "Courier New", Courier, monospace;
+  border-radius: 30px;
 }
 
 .about-text p {
@@ -253,4 +254,93 @@ a:hover {
 
 .resume-download a:hover {
   color: var(--stoneblue);
+}
+
+.error {
+  background-color: var(--moss);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  color: var(--chartruese);
+  border: solid 5px var(--juniper);
+}
+
+.error p,
+.error a {
+  font-size: 36px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: var(--chartruese);
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+label {
+  font-size: 36px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: var(--hunter);
+}
+
+label input {
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: var(--hunter);
+  margin: 10px;
+  padding: 10px;
+  border: solid 5px var(--hunter);
+  border-radius: 30px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  border: solid 5px var(--juniper);
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px var(--seaweed);
+  margin: 20px;
+  padding: 20px;
+  background-color: var(--sage);
+}
+
+.social-links a {
+  margin: 20px;
+  font-size: 36px;
+}
+
+.footer-message {
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: var(--hunter);
 }
