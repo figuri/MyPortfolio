@@ -1,4 +1,5 @@
 [build]
-base = ""
-command = "npm run build" 
+command = "npm run build"
 publish = "dist"
+[build.environment]
+  NETLIFY_CACHE_CACHE_DIR = "/dev/null"
