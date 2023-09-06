@@ -3,7 +3,7 @@ export default function About() {
         <section id='about'>
             <h2 className="header">About Me</h2>
             <div className='about'> 
-            <img className="ME" src='./public/me.jpg' alt='Samuel Thomas'/>
+            <img className="ME" src='/me.jpg' alt="picture of Samuel Thomas"/>
                 <div className='about-text'>
                     <p>My name is Samuel, I am passionate about my profession. 
                         As a fullstack developer I love to learn new technologies as often as I can. 
