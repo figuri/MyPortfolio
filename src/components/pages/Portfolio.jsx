@@ -22,11 +22,11 @@ export default function Portfolio() {
             image: './project-images/planit.png'
         },
         {
-            title: 'Hog Bloggin',
-            description: 'This is a front-back end blog app.',
-            link: '',
-            repoLink: 'https://github.com/figuri/HogBloggin',
-            image: './project-images/hog-bloggin.png'
+            title: 'LoudMouth',
+            description: 'This is a full MERN social media application',
+            link: 'https://loud-mouth-app-defe9659a2a4.herokuapp.com/',
+            repoLink: 'https://github.com/ahkar-hein/Loud-Mouth',
+            image: './project-images/loudmouth.png'
         },
         {
             title: 'Bemploy',
