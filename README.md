@@ -43,6 +43,26 @@ To set up this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/figuri/MyPortfolio.git
+```
 
 
+# Usage
+
+``` npm run dev```
+
+# Customization
+As this is my personal portfolio customized to my needs, you may want to customize it to your preferences. Here are a few things you can do:
+
+1. change the info to suit your needs
+2. Add your projects
+3. Change the color scheme
+4. Add more sections
+
+5. Please remember to give credit to the original author by linking back to the repository.
+
+# Deployment
+I used Netlify to deploy my portfolio. You can follow the instructions on the [Netlify documentation](https://docs.netlify.com/site-deploys/create-deploys/) to deploy your portfolio.
+
+# License
+This project is licensed under the MIT License.

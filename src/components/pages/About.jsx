@@ -9,7 +9,7 @@ export default function About() {
                         As a fullstack developer I love to learn new technologies as often as I can. 
                         I spend my free time playing basketball and walking my dog Bon.
                             I specialize in the MERN stack but I am always looking to learn new technologies.
-                            I am 23 and from the bay area of California. 
+                            I am 24 and from the bay area of California. 
                             I have a background in construction as a Pipeliner. 
                             After spending the years following high school digging holes in the middle of nowhere; 
                             I decided to make a change and pursue my passion for technology.
