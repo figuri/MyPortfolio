@@ -81,7 +81,7 @@ export default function Resume() {
         </div>
       </div>
       <div className='resume-download'>
-        <a href='./public/pdf/samResume.md' download>Download Resume</a>
+        <a className="downloadlink" href='./public/pdf/TechResume.docx' download>Download Resume</a>
         </div>
     </section>
   );
