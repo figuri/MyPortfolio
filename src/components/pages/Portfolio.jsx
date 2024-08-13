@@ -1,11 +1,11 @@
 export default function Portfolio() {
     const projects = [
         {
-            title: '4-Cast',
-            description: 'This is a weather forecast app using front-end technologies',
-            link: 'https://figuri.github.io/4-cast-app/',
-            repoLink: 'https://github.com/figuri/4-cast-app',
-            image: './project-images/4-cast-app.png'
+            title: 'Nuance',
+            description: 'Server based application that can upload and download files from the browser as well as CSV files while only including one header row',
+            
+            repoLink: 'https://github.com/figuri/Nuance',
+            image: './project-images/Nuance.png'
         },
         {
             title: 'You-Shall-Not-Pass',

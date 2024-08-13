@@ -2,6 +2,9 @@ export default function Resume() {
   // list of my dev skills as an array
   const skills = [
     "JavaScript",
+    "Python",
+    "Django",
+    "pandas",
     "HTML",
     "CSS",
     "React",
@@ -11,17 +14,21 @@ export default function Resume() {
     "MongoDB",
     "Mongoose",
     "Sequelize",
-    "GraphQL",
-    "Apollo",
+    "ApolloGraphQL",
+    "AWSec2, S3",
     "REST API",
   ];
   // list of my experiences as an array
   const experiences = [
     {
-      title: "None",
+      title: "FreeLance Web Developer",
       description:
-        " I am looking forward to my first ever job in the tech industry.",
+        "Assisted a small dev team to create the scaffolding for a new project. I was responsible for writing the API routes using python and Django. I made a very rudamentary front end only to test UI/UX. I also wrote the tests for the API routes. I finished the mvp within 2 days. I managed to supply the devs with a functional API that they went on to use for their larger projects. This scaffolding was used to import, download and upload csv files that contain python excecutables to the browser."
     },
+    {
+      title: "Freelance Software Developer",
+      description: "Hired to create a webpage for a podcast homepage. Using a MERN stack I created a functional webpage with a responsive UI so users can interact with their favorite podcast."
+    }
   ];
   // list of my education as an array
   const education = [
