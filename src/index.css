@@ -71,11 +71,13 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  padding: 40px;
-  margin: 50px auto;
+  padding: 60px;
+  margin: 20px auto; 
+  max-width: 90%; 
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .project {
   background-color: var(--oceanblue);
@@ -85,6 +87,7 @@ nav {
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
 
 .project:hover {
