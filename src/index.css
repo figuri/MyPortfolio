@@ -314,51 +314,74 @@ footer {
   align-items: center;
 }
 
-  .social-links a {
-    margin: 0 15px;
-    font-size: 24px;
-    color: var(--deep); /* Changed from var(--stormgray) */
-    transition: color 0.3s ease, transform 0.3s ease;
+.social-links a {
+  margin: 0 15px;
+  font-size: 24px;
+  color: var(--deepblue); /* Changed from var(--stormgray) */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--deepblue);
+  transform: scale(1.1);
+}
+
+.footer-message {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: var(--deepblue); /* Changed from var(--shadow) */
+  margin: 15px 0;
+}
+
+.contact-info {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: var(--deepblue);
+  margin: 10px 0;
+}
+
+.contact-info strong {
+  color: var(--deepblue);
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 15px;
+    margin: 20px 10px;
   }
-  
-  .social-links a:hover {
-    color: var(--deepblue);
-    transform: scale(1.1);
-  }
-  
-  .footer-message {
-    font-size: 18px;
-    font-family: "Courier New", Courier, monospace;
-    font-weight: bold;
-    color: var(--deepblue); /* Changed from var(--shadow) */
-    margin: 15px 0;
-  }
-  
+
+  .footer-message,
   .contact-info {
+    font-size: 16px;
+  }
+
+  .social-links a {
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+
+/* Additional media queries for smaller screens */
+@media (max-width: 480px) {
+  .social-links a {
+    margin: 0 10px;
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    color: var(--deepblue);
+  }
+
+  .footer-message {
+    font-size: 14px;
     margin: 10px 0;
   }
-  
-  .contact-info strong {
-    color: var(--deepblue);
+
+  .contact-info {
+    font-size: 14px;
   }
-  
-  @media (max-width: 768px) {
-    footer {
-      padding: 15px;
-      margin: 20px 10px;
-    }
-  
-    .footer-message,
-    .contact-info {
-      font-size: 16px;
-    }
-  
-    .social-links a {
-      font-size: 20px;
-      margin: 10px;
-    }
+
+  footer {
+    padding: 10px;
+    margin: 15px 5px;
   }
+}
+
   
