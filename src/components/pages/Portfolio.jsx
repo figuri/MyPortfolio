@@ -22,11 +22,11 @@ export default function Portfolio() {
             image: './project-images/planit.png'
         },
         {
-            title: 'LoudMouth',
-            description: 'This is a full MERN social media application',
-            link: 'https://loud-mouth-app-defe9659a2a4.herokuapp.com/',
-            repoLink: 'https://github.com/ahkar-hein/Loud-Mouth',
-            image: './project-images/loudmouth.png'
+            title: 'BizQL',
+            description: 'Data storage and management application. Mysql, Node.js and AWS ec2, along with Apollo GraphQL',
+            link: 'http://api.cimarroncrt.com/',
+            repoLink: 'https://github.com/caldallas/bizql',
+            image: './project-images/bizql.png'
         },
         {
             title: 'Bemploy',
