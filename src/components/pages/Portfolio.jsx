@@ -24,7 +24,7 @@ export default function Portfolio() {
         {
             title: 'BizQL',
             description: 'Data storage and management application. Mysql, Node.js and AWS ec2, along with Apollo GraphQL',
-            link: 'http://api.cimarroncrt.com/',
+            link: 'http://100.25.156.81/',
             repoLink: 'https://github.com/caldallas/bizql',
             image: './project-images/bizql.png'
         },
